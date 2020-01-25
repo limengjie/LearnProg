@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <pthread.h>
 
+//use struct to pass arguments and return results
+
 struct sum_runner_struct {
 	long long limit;
 	long long answer;

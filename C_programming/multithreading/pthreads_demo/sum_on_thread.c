@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <pthread.h>
 
+//this program uses different threads to add a global variable
+
 // The sum computed by the background thread
 long long sum = 0;
 

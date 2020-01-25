@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include <pthread.h>
 
+//allocate space for storing results in the function invoked by thread
+//return the results with join and exit functions
+//only 2 threads: 1 main thread, 1 background thread
+
 // Thread function to generate sum of 0 to N
 void* sum_runner(void* arg)
 {
